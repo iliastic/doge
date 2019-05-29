@@ -1,9 +1,8 @@
 body {
-    background-color: rgb(38, 252, 45);
+    background-color: darkblue;
   }
   
   #doge {
-    background-color: rgb(233, 152, 152);
     color: black;
     height: 40px;
     width: 50px;
@@ -17,14 +16,8 @@ body {
     transform: translateX(-50%);
   }
   
-  #pic {
-    display: none;
-    background: url(./pics/doge.png);
-    background-size: cover;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 20%;
-    top: 30%;
-  }
+.hidden {
+  display:none;
+}
+
   /*# sourceMappingURL=doge.css.map */

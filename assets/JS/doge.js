@@ -1,16 +1,7 @@
+// document.getElementById ("doge")= define that i'm going to look in html file for an element with the ID "doge";
+// addEventListener which event is needed( mouseover) and what will happen (woof,woof); 
 document.getElementById("doge").addEventListener("mouseover", woofwoof);
 document.getElementById("doge").addEventListener("mouseout", woof);
-document.getElementById("doge").addEventListener("click", picture);
-
-function picture() {
-  if (document.getElementById("pic").style.display === "none") {
-    document.getElementById("pic").style.display = "block";
-    console.log("lol");
-  } else {
-    document.getElementById("pic").style.display = "none";
-    console.log("lol2");
-  }
-}
 
 function woofwoof() {
   document.getElementById("doge").innerHTML = "woof woof!";
@@ -23,3 +14,14 @@ function woof() {
 function loadPage() {
   document.getElementById("doge").innerHTML = "woof";
 }
+
+// var button = document.getElementById("dog");
+
+function myPic() {
+  document.getElementById("pictureOfDoge").classList.toggle("hidden");
+}
+
+// button.onclick = function(){
+//     dog.classList.toggle("clicked");
+// };
+
