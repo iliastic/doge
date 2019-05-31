@@ -3,6 +3,7 @@
 document.getElementById("doge").addEventListener("mouseover", woofwoof);
 document.getElementById("doge").addEventListener("mouseout", woof);
 
+// define the function ^ from mouseover so it knows when we hoover on it woof woof will appear
 function woofwoof() {
   document.getElementById("doge").innerHTML = "woof woof!";
 }
@@ -11,11 +12,12 @@ function woof() {
   document.getElementById("doge").innerHTML = "woof!";
 }
 
+
 function loadPage() {
   document.getElementById("doge").innerHTML = "woof";
 }
 
-// var button = document.getElementById("dog");
+// var button = document.getElementById("pictureOfDoge");
 
 function myPic() {
   document.getElementById("pictureOfDoge").classList.toggle("hidden");
